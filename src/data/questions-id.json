@@ -1,0 +1,223 @@
+{
+ "locale": "id",
+ "_comment": "CONTOH. familiarity adalah tebakan demo, bukan data kelangkaan nyata. Format jawaban: \"Kanonik|alias1;alias2|familiarity|override(2 atau 6, opsional)\".",
+ "categories": [
+  {
+   "slug": "kuliner",
+   "name": "Kuliner"
+  },
+  {
+   "slug": "geografi",
+   "name": "Geografi"
+  },
+  {
+   "slug": "budaya",
+   "name": "Budaya"
+  },
+  {
+   "slug": "sains",
+   "name": "Sains"
+  },
+  {
+   "slug": "hiburan",
+   "name": "Hiburan"
+  }
+ ],
+ "questions": [
+  {
+   "slug": "kuliner-berkuah",
+   "category": "kuliner",
+   "prompt": "Sebutkan hidangan Indonesia yang berkuah",
+   "a": [
+    "Soto|soto ayam;soto betawi|0.95",
+    "Bakso|baso|0.93",
+    "Rawon||0.8",
+    "Sayur asem|sayur asam|0.6",
+    "Sop buntut|sup buntut|0.55",
+    "Gulai|gulai kambing|0.45|2",
+    "Coto Makassar|coto|0.35",
+    "Sop konro|konro|0.3",
+    "Tongseng||0.3",
+    "Tengkleng||0.1",
+    "Pallubasa|palubasa|0.12|6"
+   ]
+  },
+  {
+   "slug": "geografi-gunung",
+   "category": "geografi",
+   "prompt": "Sebutkan gunung di Indonesia",
+   "a": [
+    "Bromo||0.95",
+    "Merapi||0.9",
+    "Semeru||0.85",
+    "Rinjani||0.8",
+    "Kerinci||0.5",
+    "Slamet||0.45",
+    "Sumbing||0.3",
+    "Latimojong||0.12",
+    "Binaiya||0.08",
+    "Puncak Jaya|carstensz;carstensz pyramid|0.6"
+   ]
+  },
+  {
+   "slug": "geografi-sumatra",
+   "category": "geografi",
+   "prompt": "Sebutkan provinsi di Pulau Sumatra",
+   "a": [
+    "Aceh||0.95",
+    "Sumatra Utara|sumut;sumatera utara|0.92",
+    "Sumatra Barat|sumbar;sumatera barat|0.85",
+    "Lampung||0.75",
+    "Riau||0.8",
+    "Jambi||0.6",
+    "Sumatra Selatan|sumsel;sumatera selatan|0.6",
+    "Bengkulu||0.45"
+   ]
+  },
+  {
+   "slug": "budaya-alat-musik",
+   "category": "budaya",
+   "prompt": "Sebutkan alat musik tradisional Indonesia",
+   "a": [
+    "Angklung||0.95",
+    "Gamelan||0.9",
+    "Suling|seruling|0.6",
+    "Gendang|kendang|0.55",
+    "Sasando||0.5",
+    "Kolintang||0.4",
+    "Rebab||0.25",
+    "Tifa||0.2",
+    "Talempong||0.12",
+    "Sampek|sape|0.1"
+   ]
+  },
+  {
+   "slug": "budaya-tarian",
+   "category": "budaya",
+   "prompt": "Sebutkan tarian tradisional Indonesia",
+   "a": [
+    "Saman||0.9",
+    "Kecak||0.85",
+    "Pendet||0.8",
+    "Jaipong|jaipongan|0.6",
+    "Piring|tari piring|0.55",
+    "Reog|reog ponorogo|0.5",
+    "Legong||0.45",
+    "Tor-tor|tortor|0.3",
+    "Serimpi||0.2",
+    "Ratoh Jaroe||0.08"
+   ]
+  },
+  {
+   "slug": "geografi-pulau",
+   "category": "geografi",
+   "prompt": "Sebutkan pulau di Indonesia",
+   "a": [
+    "Jawa||0.95",
+    "Bali||0.95",
+    "Sumatra|sumatera|0.9",
+    "Kalimantan||0.85",
+    "Sulawesi||0.8",
+    "Lombok||0.7",
+    "Papua||0.7",
+    "Madura||0.5",
+    "Flores||0.4",
+    "Halmahera||0.15",
+    "Wetar||0.05"
+   ]
+  },
+  {
+   "slug": "alam-hewan",
+   "category": "sains",
+   "prompt": "Sebutkan hewan khas Indonesia",
+   "a": [
+    "Komodo|biawak komodo|0.9",
+    "Orangutan|orang utan|0.85",
+    "Harimau Sumatra|harimau sumatera|0.7",
+    "Badak Jawa||0.5",
+    "Cendrawasih|burung cendrawasih|0.45",
+    "Anoa||0.3",
+    "Tarsius|tarsier|0.25",
+    "Babirusa||0.2",
+    "Jalak Bali||0.2",
+    "Maleo||0.1"
+   ]
+  },
+  {
+   "slug": "kuliner-jajanan-pasar",
+   "category": "kuliner",
+   "prompt": "Sebutkan jajanan pasar tradisional",
+   "a": [
+    "Klepon||0.9",
+    "Onde-onde|onde onde|0.85",
+    "Lemper||0.6",
+    "Kue lumpur||0.4",
+    "Dadar gulung||0.5",
+    "Getuk||0.5",
+    "Serabi|surabi|0.45",
+    "Putu ayu||0.3",
+    "Nagasari||0.3",
+    "Cucur||0.25",
+    "Cenil||0.2",
+    "Kue pancong||0.1"
+   ]
+  },
+  {
+   "slug": "sains-unsur-kimia",
+   "category": "sains",
+   "prompt": "Sebutkan unsur kimia",
+   "a": [
+    "Besi||0.9",
+    "Emas||0.9",
+    "Oksigen||0.9",
+    "Hidrogen||0.85",
+    "Tembaga||0.7",
+    "Karbon||0.7",
+    "Nitrogen||0.6",
+    "Helium||0.5",
+    "Natrium|sodium|0.45",
+    "Neon||0.4",
+    "Raksa|merkuri;air raksa|0.4",
+    "Kripton||0.1",
+    "Disprosium||0.03"
+   ]
+  },
+  {
+   "slug": "hiburan-film-indonesia",
+   "category": "hiburan",
+   "prompt": "Sebutkan film Indonesia",
+   "a": [
+    "Laskar Pelangi||0.85",
+    "Ada Apa dengan Cinta|aadc;ada apa dengan cinta 1|0.85",
+    "Pengabdi Setan||0.7",
+    "Habibie dan Ainun|habibie & ainun|0.7",
+    "The Raid|raid;serbuan maut|0.55",
+    "Gundala||0.5",
+    "Tjoet Nja' Dhien|cut nyak dien;tjoet nja dhien|0.25",
+    "Badai Pasti Berlalu||0.1",
+    "Marlina si Pembunuh dalam Empat Babak|marlina|0.1",
+    "Daun di Atas Bantal||0.04"
+   ]
+  },
+  {
+   "slug": "hiburan-musisi",
+   "category": "hiburan",
+   "prompt": "Sebutkan band atau penyanyi Indonesia",
+   "a": [
+    "Dewa 19|dewa|0.9",
+    "Slank||0.9",
+    "Sheila on 7|so7;sheila on seven|0.85",
+    "Noah|peterpan|0.8",
+    "Raisa||0.75",
+    "Iwan Fals||0.7",
+    "Rhoma Irama||0.6",
+    "Tulus||0.55",
+    "Chrisye||0.5",
+    "Glenn Fredly||0.45",
+    "Efek Rumah Kaca|erk|0.3",
+    "Payung Teduh||0.3",
+    "Nidji||0.3"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "locale": "en",
+ "_comment": "SAMPLE. familiarity values are demo guesses, not real rarity data. Answer format: \"Canonical|alias1;alias2|familiarity|override(2 or 6, optional)\".",
+ "categories": [
+  {
+   "slug": "geography",
+   "name": "Geography"
+  },
+  {
+   "slug": "food",
+   "name": "Food"
+  },
+  {
+   "slug": "culture",
+   "name": "Culture"
+  },
+  {
+   "slug": "science",
+   "name": "Science"
+  },
+  {
+   "slug": "entertainment",
+   "name": "Entertainment"
+  }
+ ],
+ "questions": [
+  {
+   "slug": "capitals-europe",
+   "category": "geography",
+   "prompt": "Name a European capital city",
+   "a": [
+    "Paris||0.95",
+    "London||0.95",
+    "Rome||0.9",
+    "Berlin||0.9",
+    "Madrid||0.85",
+    "Vienna||0.7",
+    "Lisbon||0.6",
+    "Oslo||0.4",
+    "Reykjavik||0.3",
+    "Bratislava||0.15",
+    "Vilnius||0.1",
+    "Valletta||0.06"
+   ]
+  },
+  {
+   "slug": "mountain-ranges",
+   "category": "geography",
+   "prompt": "Name a mountain range",
+   "a": [
+    "Alps|the alps|0.9",
+    "Himalayas|himalaya|0.9",
+    "Andes||0.85",
+    "Rockies|rocky mountains|0.8",
+    "Pyrenees||0.5",
+    "Urals||0.4",
+    "Atlas|atlas mountains|0.35",
+    "Carpathians|carpathian mountains|0.3",
+    "Hindu Kush||0.15",
+    "Zagros||0.08"
+   ]
+  },
+  {
+   "slug": "spices",
+   "category": "food",
+   "prompt": "Name a spice",
+   "a": [
+    "Pepper|black pepper|0.95",
+    "Cinnamon||0.9",
+    "Nutmeg||0.7",
+    "Cumin||0.7",
+    "Turmeric||0.65",
+    "Cardamom||0.5",
+    "Saffron||0.5",
+    "Sumac||0.2",
+    "Asafoetida|hing|0.07",
+    "Grains of paradise||0.05"
+   ]
+  },
+  {
+   "slug": "instruments",
+   "category": "culture",
+   "prompt": "Name a musical instrument",
+   "a": [
+    "Guitar||0.95",
+    "Piano||0.95",
+    "Violin||0.9",
+    "Drums|drum kit|0.9",
+    "Flute||0.8",
+    "Oboe||0.4",
+    "Bassoon||0.3",
+    "Harmonium||0.15",
+    "Theremin||0.1",
+    "Hurdy-gurdy||0.06"
+   ]
+  },
+  {
+   "slug": "board-games",
+   "category": "culture",
+   "prompt": "Name a board game",
+   "a": [
+    "Chess||0.95",
+    "Monopoly||0.9",
+    "Scrabble||0.8",
+    "Risk||0.6",
+    "Catan|settlers of catan|0.5",
+    "Backgammon||0.45",
+    "Go|weiqi|0.35",
+    "Carcassonne||0.2",
+    "Mancala||0.2",
+    "Azul||0.08"
+   ]
+  },
+  {
+   "slug": "languages-code",
+   "category": "science",
+   "prompt": "Name a programming language",
+   "a": [
+    "Python||0.95",
+    "JavaScript|js|0.95",
+    "Java||0.9",
+    "Kotlin||0.5",
+    "Rust||0.45",
+    "Golang|go lang|0.45",
+    "Haskell||0.2",
+    "Erlang||0.1",
+    "Prolog||0.08",
+    "Nim||0.05"
+   ]
+  },
+  {
+   "slug": "arctic-animals",
+   "category": "science",
+   "prompt": "Name an animal that lives in the Arctic",
+   "a": [
+    "Polar bear||0.95",
+    "Arctic fox||0.7",
+    "Walrus||0.6",
+    "Reindeer|caribou|0.55",
+    "Narwhal||0.5",
+    "Snowy owl||0.4",
+    "Beluga|beluga whale|0.3",
+    "Musk ox||0.2",
+    "Arctic hare||0.15",
+    "Ptarmigan||0.06"
+   ]
+  },
+  {
+   "slug": "food-pasta",
+   "category": "food",
+   "prompt": "Name a type of pasta",
+   "a": [
+    "Spaghetti||0.95",
+    "Penne||0.9",
+    "Macaroni||0.85",
+    "Lasagne|lasagna|0.85",
+    "Fettuccine|fettucine|0.8",
+    "Ravioli||0.75",
+    "Tagliatelle||0.5",
+    "Farfalle||0.5",
+    "Orzo||0.3",
+    "Bucatini||0.2",
+    "Orecchiette||0.15",
+    "Trofie||0.04"
+   ]
+  },
+  {
+   "slug": "science-elements",
+   "category": "science",
+   "prompt": "Name a chemical element",
+   "a": [
+    "Oxygen||0.9",
+    "Hydrogen||0.9",
+    "Iron||0.9",
+    "Gold||0.9",
+    "Carbon||0.8",
+    "Helium||0.7",
+    "Sodium||0.6",
+    "Neon||0.5",
+    "Mercury||0.5",
+    "Krypton||0.2",
+    "Ytterbium||0.04",
+    "Dysprosium||0.03"
+   ]
+  },
+  {
+   "slug": "ent-shakespeare",
+   "category": "entertainment",
+   "prompt": "Name a Shakespeare play",
+   "a": [
+    "Hamlet||0.95",
+    "Macbeth||0.95",
+    "Romeo and Juliet|romeo & juliet|0.95",
+    "Othello||0.8",
+    "King Lear||0.7",
+    "The Tempest|tempest|0.65",
+    "A Midsummer Night's Dream|midsummer nights dream|0.6",
+    "Twelfth Night||0.4",
+    "Titus Andronicus||0.15",
+    "Coriolanus||0.1",
+    "Cymbeline||0.06",
+    "Timon of Athens||0.05"
+   ]
+  },
+  {
+   "slug": "ent-ghibli",
+   "category": "entertainment",
+   "prompt": "Name a Studio Ghibli film",
+   "a": [
+    "Spirited Away||0.9",
+    "My Neighbor Totoro|totoro;my neighbour totoro|0.85",
+    "Princess Mononoke||0.7",
+    "Howl's Moving Castle|howls moving castle|0.7",
+    "Kiki's Delivery Service|kikis delivery service|0.6",
+    "Ponyo||0.6",
+    "Castle in the Sky|laputa|0.45",
+    "Grave of the Fireflies||0.4",
+    "Porco Rosso||0.25",
+    "The Wind Rises|wind rises|0.2",
+    "Whisper of the Heart||0.15",
+    "Only Yesterday||0.04"
+   ]
+  }
+ ]
+}

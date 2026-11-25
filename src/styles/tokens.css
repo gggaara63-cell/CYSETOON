@@ -1,0 +1,116 @@
+/* GENERATED dari tokens.json + tokens.dark.json. Jangan edit tangan. */
+:root {
+  --color-bg: #F4EFE3;
+  --color-surface: #FBF8EF;
+  --color-surface-sunk: #E9E3D2;
+  --color-border: #CFC6AE;
+  --color-border-input: #6B6452;
+  --color-text: #1C1A16;
+  --color-text-muted: #5B5647;
+  --color-brand: #1F3B2D;
+  --color-on-brand: #F4EFE3;
+  --color-accent: #EE6A1F;
+  --color-on-accent: #1C1A16;
+  --color-accent-text: #A03C08;
+  --color-danger: #B3261E;
+  --color-success: #1F6B3F;
+  --color-tier1: #E3DCC8;
+  --color-on-tier1: #1C1A16;
+  --color-tier2: #FBF8EF;
+  --color-on-tier2: #1C1A16;
+  --color-tier3: #B7C7A3;
+  --color-on-tier3: #1C1A16;
+  --color-tier4: #7E9C7B;
+  --color-on-tier4: #1C1A16;
+  --color-tier5: #2F5D46;
+  --color-on-tier5: #F4EFE3;
+  --color-tier6: #EE6A1F;
+  --color-on-tier6: #1C1A16;
+  --font-display: 'Barlow Condensed', 'Arial Narrow', 'Roboto Condensed', sans-serif;
+  --font-text: 'Barlow', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --radius-plate: 2px;
+  --radius-control: 6px;
+  --radius-input: 14px;
+  --notch: 10px;
+  --shadow-lift: 3px 3px 0 var(--color-text);
+  --shadow-sheet: 0 -8px 24px rgba(28,26,22,.18);
+  --ease: cubic-bezier(.2,.8,.2,1);
+  --spring: cubic-bezier(.34,1.56,.64,1);
+  --dur-fast: 120ms;
+  --dur-base: 220ms;
+  --text-prompt: clamp(24px, 4.2vw + 8px, 28px);
+  --text-display: clamp(44px, 7vw + 12px, 56px);
+  --text-numeral: clamp(72px, 12vw + 24px, 96px);
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  --color-bg: #14160F;
+  --color-surface: #1E2117;
+  --color-surface-sunk: #0F110B;
+  --color-border: #3A3E2E;
+  --color-border-input: #8A8570;
+  --color-text: #F1ECDD;
+  --color-text-muted: #B8B29E;
+  --color-brand: #9CC3A6;
+  --color-on-brand: #14160F;
+  --color-accent: #FF7A2E;
+  --color-on-accent: #14160F;
+  --color-accent-text: #FF8A47;
+  --color-danger: #FF8C82;
+  --color-success: #8ED1A0;
+  --color-tier1: #2B2E22;
+  --color-on-tier1: #F1ECDD;
+  --color-tier2: #1E2117;
+  --color-on-tier2: #F1ECDD;
+  --color-tier3: #46634D;
+  --color-on-tier3: #F1ECDD;
+  --color-tier4: #7FA687;
+  --color-on-tier4: #14160F;
+  --color-tier5: #B7D8BC;
+  --color-on-tier5: #14160F;
+  --color-tier6: #FF7A2E;
+  --color-on-tier6: #14160F;
+  --shadow-lift: 3px 3px 0 var(--color-text);
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #14160F;
+    --color-surface: #1E2117;
+    --color-surface-sunk: #0F110B;
+    --color-border: #3A3E2E;
+    --color-border-input: #8A8570;
+    --color-text: #F1ECDD;
+    --color-text-muted: #B8B29E;
+    --color-brand: #9CC3A6;
+    --color-on-brand: #14160F;
+    --color-accent: #FF7A2E;
+    --color-on-accent: #14160F;
+    --color-accent-text: #FF8A47;
+    --color-danger: #FF8C82;
+    --color-success: #8ED1A0;
+    --color-tier1: #2B2E22;
+    --color-on-tier1: #F1ECDD;
+    --color-tier2: #1E2117;
+    --color-on-tier2: #F1ECDD;
+    --color-tier3: #46634D;
+    --color-on-tier3: #F1ECDD;
+    --color-tier4: #7FA687;
+    --color-on-tier4: #14160F;
+    --color-tier5: #B7D8BC;
+    --color-on-tier5: #14160F;
+    --color-tier6: #FF7A2E;
+    --color-on-tier6: #14160F;
+    color-scheme: dark;
+  }
+}
+
+/* Dasar interaksi (R-39): satu kali di lapisan dasar */
+a[href], button:not(:disabled), summary, select, label[for], [role="button"], [role="tab"], [role="switch"],
+input[type="checkbox"], input[type="radio"] { cursor: pointer; }
+button:disabled, [aria-disabled="true"] { cursor: not-allowed; }
+:focus-visible { outline: 3px solid var(--color-text); outline-offset: 3px; box-shadow: 0 0 0 3px var(--color-bg); }
+.num { font-family: var(--font-display); font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
